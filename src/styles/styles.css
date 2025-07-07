@@ -1,0 +1,67 @@
+.gb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sec-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.headline-2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.headline-3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.diamond {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  transform: rotate(45deg);
+}
+
+.basic {
+  background: linear-gradient(#97b6f5, #0869cb);
+}
+
+.basic-2 {
+  background: linear-gradient(#b6f597, #49cb08);
+}
+
+.basic-3 {
+  background: linear-gradient(#f5979a, #cb082f);
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
